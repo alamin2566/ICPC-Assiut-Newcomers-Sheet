@@ -1,26 +1,17 @@
 #include<bits/stdc++.h>
 using namespace std;
-
 int main(){
-    int x,mx;
-    mx=0;
-    cin>>x;
-    int num=x;
-    while(x!=0){
-
-        int rem=x%10;
-        mx=mx*10+rem;
-        x/=10;
-
-
-  }
-    cout<<mx<<'\n';
-
-    if(num==mx){
+    string s1;
+    cin>>s1;
+    string s2=s1;
+    reverse(s1.begin(),s1.end());
+    if(s1==s2){
         cout<<"YES"<<'\n';
+
     }
     else{
-        cout<<"NO";
+        cout<<"NO"<<'\n';
     }
+
 
 }
