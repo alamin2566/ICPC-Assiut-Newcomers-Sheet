@@ -1,2 +1,1 @@
-Begginer problem solving
-
+ICPC-Assiut-Newcomers-Sheet
